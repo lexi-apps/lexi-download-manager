@@ -10,12 +10,17 @@
 [![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-download-manager/total?color=0969da)](https://github.com/lexi-apps/lexi-download-manager/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4)
 ![Price](https://img.shields.io/badge/price-free-8250df)
+[![Support on Patreon](https://img.shields.io/badge/Patreon-support-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 
 ### [⬇ Download the latest version](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
 
 <sub>Run <code>Lexi-Setup-x.y.z.exe</code> from the latest release. You don't need the other files.</sub>
 
 [English](#features) · [Türkçe](#türkçe)
+
+<br>
+
+<img src="assets/screenshots/main.png" width="860" alt="Lexi Download Manager main window">
 
 </div>
 
@@ -35,6 +40,12 @@
 | 🔒 **Privacy** | No account, no ads, no tracking. Saved cookies and passwords are encrypted on your PC. Optional Tor support. |
 | 🔄 **Always up to date** | The app and its download tools update themselves. |
 | 🌍 **Languages** | English and Turkish. |
+
+## Screenshots
+
+| Choose video quality | Settings |
+|---|---|
+| <img src="assets/screenshots/video-format.png" alt="Choose video format"> | <img src="assets/screenshots/settings.png" alt="Settings"> |
 
 ## Installation
 
@@ -70,6 +81,12 @@ Lexi never replaces your existing torrent client on its own. Go to **Settings �
 - `latest.yml` and `.blockmap`: used by the automatic updater.
 - `*.tar.xz`, `*.7z`, `lexi-ffmpeg-*-build-recipe.zip`, `SHA256SUMS.txt`: source code of the bundled open-source tools (aria2, GMP, FFmpeg, 7-Zip). They are published to comply with their licenses.
 </details>
+
+## Support Lexi
+
+Lexi is free and has no ads. If it saves you time, you can support its development on Patreon:
+
+[![Support on Patreon](https://img.shields.io/badge/Support%20Lexi%20on-Patreon-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 
 ## License
 
@@ -111,6 +128,9 @@ Bug reports and questions: **lexiapps@protonmail.com**
 - **Güncellemeler nasıl gelir?** Lexi açıkken yeni sürümü arka planda indirir, programı kapatınca kurar.
 - **Magnet bağlantısı başka programda açılıyor.** Lexi kurulu torrent programınızın yerini kendiliğinden almaz. **Ayarlar → Varsayılan torrent programı yap** ile Windows'un Varsayılan uygulamalar sayfasında Lexi'yi seçin.
 - **Sürümdeki diğer dosyalar ne?** `latest.yml` ve `.blockmap` otomatik güncelleme içindir. `*.tar.xz`, `*.7z`, derleme tarifi ve `SHA256SUMS.txt`, programla gelen açık kaynaklı araçların (aria2, GMP, FFmpeg, 7-Zip) kaynak kodlarıdır; lisansları gereği yayımlanır.
+
+### Destek ol
+Lexi ücretsizdir ve reklam içermez. İşinize yarıyorsa geliştirilmesine [Patreon üzerinden destek olabilirsiniz](https://www.patreon.com/cw/LexiApps).
 
 ### Lisans ve iletişim
 Lexi Download Manager ücretsiz kullanılır. Lexi'nin kendi kaynak kodu bu depoda yayımlanmaz. Programla gelen açık kaynaklı araçların lisansları programdaki **Ayarlar → Hakkında → Lisans ve üçüncü taraf bildirimleri** bölümündedir.
