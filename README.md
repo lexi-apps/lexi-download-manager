@@ -11,6 +11,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4)
 ![Price](https://img.shields.io/badge/price-free-8250df)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-support-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
+[![Website](https://img.shields.io/badge/Website-lexi--apps.github.io-ff5a36)](https://lexi-apps.github.io/)
 
 ### [⬇ Download the latest version](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
 
