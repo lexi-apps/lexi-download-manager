@@ -89,6 +89,11 @@ Lexi is free and has no ads. If it saves you time, you can support its developme
 
 [![Support on Patreon](https://img.shields.io/badge/Support%20Lexi%20on-Patreon-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 
+## More from Lexi Apps
+
+- **Website:** [lexi-apps.github.io](https://lexi-apps.github.io/)
+- **[Lexi Ren'Py Translator](https://github.com/lexi-apps/lexi-renpy-translator):** translates Ren'Py visual novels into other languages. Basic is free, with no account.
+
 ## License
 
 Lexi Download Manager is free to use (freeware). Lexi's own source code is not published in this repository. The bundled open-source tools keep their own licenses: see **Settings → About → License and third-party notices** in the app.
