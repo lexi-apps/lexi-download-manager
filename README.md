@@ -11,6 +11,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4)
 ![Price](https://img.shields.io/badge/price-free-8250df)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-support-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-tip-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
 [![Website](https://img.shields.io/badge/Website-lexi--apps.github.io-ff5a36)](https://lexi-apps.github.io/)
 
 ### [⬇ Download the latest version](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
@@ -85,9 +86,10 @@ Lexi never replaces your existing torrent client on its own. Go to **Settings �
 
 ## Support Lexi
 
-Lexi is free and has no ads. If it saves you time, you can support its development on Patreon:
+Lexi is free and has no ads. If it saves you time, you can support its development with a monthly membership on Patreon or a one-time tip on Buy Me a Coffee:
 
 [![Support on Patreon](https://img.shields.io/badge/Support%20Lexi%20on-Patreon-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a-Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
 
 ## More from Lexi Apps
 
@@ -136,7 +138,7 @@ Bug reports and questions: **lexiapps@protonmail.com**
 - **Sürümdeki diğer dosyalar ne?** `latest.yml` ve `.blockmap` otomatik güncelleme içindir. `*.tar.xz`, `*.7z`, derleme tarifi ve `SHA256SUMS.txt`, programla gelen açık kaynaklı araçların (aria2, GMP, FFmpeg, 7-Zip) kaynak kodlarıdır; lisansları gereği yayımlanır.
 
 ### Destek ol
-Lexi ücretsizdir ve reklam içermez. İşinize yarıyorsa geliştirilmesine [Patreon üzerinden destek olabilirsiniz](https://www.patreon.com/cw/LexiApps).
+Lexi ücretsizdir ve reklam içermez. İşinize yarıyorsa geliştirilmesine [Patreon üzerinden](https://www.patreon.com/cw/LexiApps) veya tek seferlik olarak [Buy Me a Coffee üzerinden](https://buymeacoffee.com/lexiapps) destek olabilirsiniz.
 
 ### Lisans ve iletişim
 Lexi Download Manager ücretsiz kullanılır. Lexi'nin kendi kaynak kodu bu depoda yayımlanmaz. Programla gelen açık kaynaklı araçların lisansları programdaki **Ayarlar → Hakkında → Lisans ve üçüncü taraf bildirimleri** bölümündedir.
