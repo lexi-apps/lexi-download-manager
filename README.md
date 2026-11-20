@@ -11,8 +11,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4)
 ![Price](https://img.shields.io/badge/price-free-8250df)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-support-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-tip-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
-[![Website](https://img.shields.io/badge/Website-lexi--apps.github.io-ff5a36)](https://lexi-apps.github.io/)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/lexiapps)
 
 ### [⬇ Download the latest version](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
 
@@ -32,14 +31,15 @@
 
 | | |
 |---|---|
-| ⚡ **Fast downloads** | Splits each file into parts and downloads them in parallel. Pause, resume and automatic retries. |
-| 🎬 **Video sites** | Downloads videos from YouTube and many other sites. Choose quality, subtitles included. |
+| ⚡ **Fast downloads** | Splits each file into parts and downloads them in parallel. Pause, resume, drag-and-drop queue priority, live speed/piece graph and automatic retries. |
+| 🎬 **Video sites** | Downloads videos from YouTube and many other sites. Quality profiles, SponsorBlock, chapter/metadata embedding, audio-only and subtitles. |
 | 📺 **Stream capture** | The extension detects videos playing on a page (HLS streams) and saves them as a single file. |
 | 🧲 **Torrents** | Magnet links and .torrent files. Opens magnet links from your browser. Sharing after the download can be limited or turned off. |
-| ☁️ **File hosts** | Mega and Gofile links. |
-| 🧩 **Browser extension** | Chrome, Edge, Brave, Opera, Vivaldi and Firefox. Downloads are sent to Lexi automatically. |
-| 📁 **Organised** | Sorts finished files into folders by type, warns about duplicates, scans finished files with Windows Defender. |
-| 🔒 **Privacy** | No account, no ads, no tracking. Saved cookies and passwords are encrypted on your PC. Optional Tor support. |
+| ☁️ **File hosts** | Mega, Gofile, Pixeldrain and MediaFire links. |
+| 🧩 **Browser extension** | Chrome, Edge, Brave, Opera, Vivaldi and Firefox. Link grabber, confirmation prompt, pairing code and link refresh. |
+| 📁 **Organised** | Optional "Save as" dialog, custom download rules, custom categories, RSS/Atom feeds, watched folders, duplicate warnings and Windows Defender scan. |
+| 🔒 **Privacy** | No account, no ads, no tracking. Saved cookies, proxy credentials and site passwords are encrypted on your PC. Optional Tor & proxy support. |
+| 💼 **Portable & Backups** | Available as both installer and portable ZIP; automatic daily backups and export/import. |
 | 🔄 **Always up to date** | The app and its download tools update themselves. |
 | 🌍 **Languages** | English and Turkish. |
 
@@ -86,15 +86,10 @@ Lexi never replaces your existing torrent client on its own. Go to **Settings �
 
 ## Support Lexi
 
-Lexi is free and has no ads. If it saves you time, you can support its development with a monthly membership on Patreon or a one-time tip on Buy Me a Coffee:
+Lexi is free and has no ads. If it saves you time, you can support its development via Buy Me a Coffee or Patreon:
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Support%20Lexi%20on-Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/lexiapps)
 [![Support on Patreon](https://img.shields.io/badge/Support%20Lexi%20on-Patreon-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a-Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
-
-## More from Lexi Apps
-
-- **Website:** [lexi-apps.github.io](https://lexi-apps.github.io/)
-- **[Lexi Ren'Py Translator](https://github.com/lexi-apps/lexi-renpy-translator):** translates Ren'Py visual novels into other languages. Basic is free, with no account.
 
 ## License
 
@@ -113,14 +108,15 @@ Bug reports and questions: **lexiapps@protonmail.com**
 ### [⬇ En son sürümü indir](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
 
 ### Özellikler
-- ⚡ **Hızlı indirme:** dosyayı parçalara bölüp aynı anda indirir. Duraklat, devam ettir, otomatik yeniden dene.
-- 🎬 **Video siteleri:** YouTube ve birçok siteden video indirir. Kalite seçimi ve altyazı.
+- ⚡ **Hızlı indirme:** dosyayı parçalara bölüp aynı anda indirir. Duraklat, devam ettir, sürükle-bırak sıra önceliği, canlı hız/parça grafiği, otomatik yeniden dene.
+- 🎬 **Video siteleri:** YouTube ve birçok siteden video indirir. Kalite profilleri, SponsorBlock, bölüm/meta veri gömme, yalnız ses ve altyazı.
 - 📺 **Yayın yakalama:** eklenti sayfada oynayan videoyu (HLS) algılar ve tek dosya olarak kaydeder.
 - 🧲 **Torrent:** magnet bağlantıları ve .torrent dosyaları. Tarayıcıdaki magnet bağlantıları Lexi'de açılır. İndirme sonrası paylaşım sınırlanabilir ya da kapatılabilir.
-- ☁️ **Dosya siteleri:** Mega ve Gofile bağlantıları.
-- 🧩 **Tarayıcı eklentisi:** Chrome, Edge, Brave, Opera, Vivaldi ve Firefox. İndirmeler kendiliğinden Lexi'ye gelir.
-- 📁 **Düzen:** biten dosyaları türüne göre klasörlere ayırır, aynı dosyayı tekrar indirirken uyarır, biten dosyaları Windows Defender ile tarar.
-- 🔒 **Gizlilik:** hesap yok, reklam yok, takip yok. Kayıtlı çerez ve şifreler bilgisayarınızda şifreli saklanır. İsteğe bağlı Tor desteği.
+- ☁️ **Dosya siteleri:** Mega, Gofile, Pixeldrain ve MediaFire bağlantıları.
+- 🧩 **Tarayıcı eklentisi:** Chrome, Edge, Brave, Opera, Vivaldi ve Firefox. Bağlantı toplayıcı, onay penceresi, eşleştirme kodu ve bağlantı yenileme.
+- 📁 **Düzen:** isteğe bağlı "Farklı kaydet" penceresi, özel kurallar, özel kategoriler, RSS/Atom akışları, izlenen klasörler, kopya uyarısı ve Windows Defender taraması.
+- 🔒 **Gizlilik:** hesap yok, reklam yok, takip yok. Kayıtlı çerez, vekil kimlik bilgisi ve site şifreleri bilgisayarınızda şifreli saklanır. İsteğe bağlı Tor ve vekil desteği.
+- 💼 **Taşınabilir ve yedekli:** hem kurulum hem taşınabilir ZIP sürümü; günlük otomatik yedekler ve dışa/içe aktarma.
 - 🔄 **Hep güncel:** program ve indirme araçları kendini günceller.
 - 🌍 **Diller:** Türkçe ve İngilizce.
 
@@ -138,7 +134,7 @@ Bug reports and questions: **lexiapps@protonmail.com**
 - **Sürümdeki diğer dosyalar ne?** `latest.yml` ve `.blockmap` otomatik güncelleme içindir. `*.tar.xz`, `*.7z`, derleme tarifi ve `SHA256SUMS.txt`, programla gelen açık kaynaklı araçların (aria2, GMP, FFmpeg, 7-Zip) kaynak kodlarıdır; lisansları gereği yayımlanır.
 
 ### Destek ol
-Lexi ücretsizdir ve reklam içermez. İşinize yarıyorsa geliştirilmesine [Patreon üzerinden](https://www.patreon.com/cw/LexiApps) veya tek seferlik olarak [Buy Me a Coffee üzerinden](https://buymeacoffee.com/lexiapps) destek olabilirsiniz.
+Lexi ücretsizdir ve reklam içermez. İşinize yarıyorsa geliştirilmesine [Buy Me a Coffee üzerinden](https://buymeacoffee.com/lexiapps) veya [Patreon üzerinden](https://www.patreon.com/cw/LexiApps) destek olabilirsiniz.
 
 ### Lisans ve iletişim
 Lexi Download Manager ücretsiz kullanılır. Lexi'nin kendi kaynak kodu bu depoda yayımlanmaz. Programla gelen açık kaynaklı araçların lisansları programdaki **Ayarlar → Hakkında → Lisans ve üçüncü taraf bildirimleri** bölümündedir.
