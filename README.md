@@ -10,10 +10,11 @@
 [![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-download-manager/total?color=0969da)](https://github.com/lexi-apps/lexi-download-manager/releases)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4)
 ![Price](https://img.shields.io/badge/price-free-8250df)
+[![Website](https://img.shields.io/badge/website-lexi--apps.pages.dev-ff5a36)](https://lexi-apps.pages.dev/lexi-download-manager/)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-support-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/lexiapps)
 
-### [⬇ Download the latest version](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
+### [⬇ Download the latest version](https://github.com/lexi-apps/lexi-download-manager/releases/latest) · [🌐 Official Website](https://lexi-apps.pages.dev/lexi-download-manager/)
 
 <sub>Run <code>Lexi-Setup-x.y.z.exe</code> from the latest release. You don't need the other files.</sub>
 
