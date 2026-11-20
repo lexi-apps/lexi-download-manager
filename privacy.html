@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en" class="no-gl is-ready">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy / Gizlilik Politikası — Lexi Download Manager</title>
+<meta name="description" content="Privacy Policy for the Lexi Download Manager browser extension and desktop application. Local loopback communication over 127.0.0.1:19847 with zero tracking or external servers.">
+<meta name="theme-color" content="#05070a">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>
+  (function () {
+    var A = {
+      ember:  ['#ff5a36', '#0a0605'],
+      acid:   ['#c8ff2e', '#0a0d02'],
+      amber:  ['#ffb224', '#0d0902'],
+      ice:    ['#5ad8ff', '#02090d'],
+      signal: ['#ff2e4d', '#0a0204'],
+      mono:   ['#f2f5f7', '#05070a']
+    };
+    var k = 'ember';
+    try { k = localStorage.getItem('lexi-accent') || k; } catch (e) {}
+    if (!A[k]) k = 'ember';
+    var d = document.documentElement;
+    d.style.setProperty('--accent', A[k][0]);
+    d.style.setProperty('--on-accent', A[k][1]);
+    d.setAttribute('data-accent', k);
+    window.__lexiAccents = A;
+  })();
+</script>
+</head>
+<body>
+
+<div class="fallback-core" aria-hidden="true"><i></i><i></i></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<header class="top">
+  <a class="brand" href="index.html" aria-label="Lexi Download Manager, back to home">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+      <path class="mark__l" d="M5 3h5v21h17v5H5z"/>
+      <path class="mark__d" d="M21 3l6.5 8L21 19l-6.5-8z"/>
+    </svg>
+    <span>Lexi Download Manager</span>
+  </a>
+  <div class="top__panel" id="menu">
+    <nav aria-label="Primary">
+      <a href="index.html">← Home / Ana Sayfa</a>
+      <a href="#english">English</a>
+      <a href="#turkce">Türkçe</a>
+    </nav>
+    <div class="accent" role="radiogroup" aria-labelledby="accent-label">
+      <span class="accent__label" id="accent-label">Accent</span>
+      <label title="Ember"><input type="radio" name="accent" value="ember" checked><i style="--c:#ff5a36"></i><span class="vh">Ember accent</span></label>
+      <label title="Acid"><input type="radio" name="accent" value="acid"><i style="--c:#c8ff2e"></i><span class="vh">Acid accent</span></label>
+      <label title="Amber"><input type="radio" name="accent" value="amber"><i style="--c:#ffb224"></i><span class="vh">Amber accent</span></label>
+      <label title="Ice"><input type="radio" name="accent" value="ice"><i style="--c:#5ad8ff"></i><span class="vh">Ice accent</span></label>
+      <label title="Signal"><input type="radio" name="accent" value="signal"><i style="--c:#ff2e4d"></i><span class="vh">Signal accent</span></label>
+      <label title="Mono"><input type="radio" name="accent" value="mono"><i style="--c:#f2f5f7"></i><span class="vh">Mono accent</span></label>
+      <output class="accent__name" id="accent-name" aria-hidden="true">Ember</output>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <div class="deep">
+
+    <!-- ============ 01. English Privacy Policy ============ -->
+    <section class="sec" id="english" aria-labelledby="en-title" style="padding-top:140px;">
+      <div class="wrap">
+        <header class="sec__head">
+          <p class="eyebrow">01 <span>/</span> Privacy Policy <span>/</span> English</p>
+          <h2 id="en-title">Local only, by design<em>.</em></h2>
+          <p class="sec__lede">The Lexi browser extension passes downloads from your browser to the Lexi Download Manager desktop app installed on your own computer.</p>
+        </header>
+
+        <h3 class="label">What the extension reads</h3>
+        <ul class="notes">
+          <li>The address (URL) and file name of a download, so Lexi can download it.</li>
+          <li>Links on a page, only when you ask for it (for example &ldquo;Download all links on this page&rdquo; or the media button).</li>
+          <li>The cookies of the website you are downloading from (only that site), so downloads that need you to be signed in keep working.</li>
+          <li>The page address (referer) and your browser's user-agent text, which some sites require.</li>
+          <li>Settings you choose (for example sites where capture is disabled, and the optional pairing code) are stored in the browser's own extension storage on your computer.</li>
+        </ul>
+
+        <h3 class="label">Where it goes</h3>
+        <ul class="notes">
+          <li>All of this is sent only to the Lexi app on your computer, at <code>127.0.0.1</code> (local address, port <code>19847</code>). In Tor Browser it goes through a local helper (native messaging) to the same app.</li>
+          <li>Nothing is sent to any other server, to us, or to anyone else.</li>
+          <li>No analytics, no tracking, no advertising, no remote code.</li>
+        </ul>
+
+        <h3 class="label">Your control</h3>
+        <ul class="notes">
+          <li>You can turn capture off for any site, or entirely, from the extension popup. Removing the extension removes its stored settings.</li>
+          <li>The data handled by the Lexi app itself is covered by the app's own settings and stays on your computer.</li>
+          <li>Contact: <a href="mailto:lexiapps@protonmail.com"><code>lexiapps@protonmail.com</code></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 02. Turkish Privacy Policy ============ -->
+    <section class="sec" id="turkce" aria-labelledby="tr-title" style="padding-top:40px;">
+      <div class="wrap">
+        <header class="sec__head">
+          <p class="eyebrow">02 <span>/</span> Gizlilik Politikası <span>/</span> Türkçe</p>
+          <h2 id="tr-title">Tasarım gereği tam yerel<em>.</em></h2>
+          <p class="sec__lede">Lexi eklentisi, tarayıcınızdaki indirmeleri kendi bilgisayarınızda kurulu olan Lexi Download Manager uygulamasına aktarır.</p>
+        </header>
+
+        <h3 class="label">Eklenti neleri okur</h3>
+        <ul class="notes">
+          <li>Bir indirmenin adresi (URL) ve dosya adı; Lexi'nin indirebilmesi için.</li>
+          <li>Sayfadaki bağlantılar; yalnızca siz istediğinizde (örneğin &ldquo;Sayfadaki tüm bağlantıları indir&rdquo; veya medya düğmesi).</li>
+          <li>İndirdiğiniz sitenin çerezleri (yalnızca o site); oturum gerektiren indirmeler çalışsın diye.</li>
+          <li>Bazı sitelerin istediği sayfa adresi (referer) ve tarayıcının kullanıcı aracısı (user-agent) metni.</li>
+          <li>Sizin seçtiğiniz ayarlar (örneğin yakalamanın kapatıldığı siteler ve isteğe bağlı eşleştirme kodu) bilgisayarınızdaki tarayıcının kendi eklenti depolamasında tutulur.</li>
+        </ul>
+
+        <h3 class="label">Nereye gider</h3>
+        <ul class="notes">
+          <li>Bunların hepsi yalnızca bilgisayarınızdaki Lexi uygulamasına, <code>127.0.0.1</code> (yerel adres, <code>19847</code> portu) üzerinden gönderilir. Tor Browser'da aynı uygulamaya yerel bir yardımcı (native messaging) üzerinden ulaşır.</li>
+          <li>Başka hiçbir sunucuya, bize veya üçüncü kişilere hiçbir şey gönderilmez.</li>
+          <li>Analitik, izleme, reklam ve uzaktan kod yoktur.</li>
+        </ul>
+
+        <h3 class="label">Kontrol sizde</h3>
+        <ul class="notes">
+          <li>Eklenti penceresinden herhangi bir site için ya da tamamen yakalamayı kapatabilirsiniz. Eklentiyi kaldırmak, depolanan ayarlarını da siler.</li>
+          <li>Lexi uygulamasının kendi işlediği veriler uygulamanın ayarlarına tabidir ve bilgisayarınızda kalır.</li>
+          <li>İletişim: <a href="mailto:lexiapps@protonmail.com"><code>lexiapps@protonmail.com</code></a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="foot">
+  <a class="brand" href="index.html" aria-label="Lexi Download Manager">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+      <path class="mark__l" d="M5 3h5v21h17v5H5z"/>
+      <path class="mark__d" d="M21 3l6.5 8L21 19l-6.5-8z"/>
+    </svg>
+    <span>Lexi Apps</span>
+  </a>
+  <ul>
+    <li><a href="index.html">Download Manager</a></li>
+    <li><a href="https://lexi-apps.github.io/" rel="noopener">Main Site</a></li>
+    <li><a href="https://github.com/lexi-apps/lexi-download-manager/releases/latest" rel="noopener">Releases</a></li>
+    <li><a href="https://buymeacoffee.com/lexiapps" rel="noopener">Buy Me a Coffee</a></li>
+    <li><a href="https://www.patreon.com/cw/LexiApps" rel="noopener">Patreon</a></li>
+    <li><a href="mailto:lexiapps@protonmail.com">lexiapps@protonmail.com</a></li>
+  </ul>
+  <p>&copy; 2026 Lexi Apps</p>
+</footer>
+
+<script>
+  (function () {
+    var A = window.__lexiAccents;
+    var root = document.documentElement;
+    var current = root.getAttribute('data-accent') || 'ember';
+    var out = document.getElementById('accent-name');
+    function apply(key, save) {
+      var a = A[key] || A.ember;
+      root.style.setProperty('--accent', a[0]);
+      root.style.setProperty('--on-accent', a[1]);
+      root.setAttribute('data-accent', key);
+      if (out) out.textContent = key.charAt(0).toUpperCase() + key.slice(1);
+      if (save) { try { localStorage.setItem('lexi-accent', key); } catch (e) {} }
+    }
+    Array.from(document.querySelectorAll('.accent input')).forEach(function (input) {
+      input.checked = input.value === current;
+      input.addEventListener('change', function () { if (input.checked) apply(input.value, true); });
+    });
+    apply(current, false);
+  })();
+</script>
+</body>
+</html>
