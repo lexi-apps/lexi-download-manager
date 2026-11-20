@@ -45,9 +45,9 @@
 
 ## Screenshots
 
-| Choose video quality | Settings |
-|---|---|
-| <img src="assets/screenshots/video-format.png" alt="Choose video format"> | <img src="assets/screenshots/settings.png" alt="Settings"> |
+| Choose video quality | Save as dialog | Settings |
+|---|---|---|
+| <img src="assets/screenshots/video-format.png" alt="Choose video format"> | <img src="assets/screenshots/save-as.png" alt="Save as dialog"> | <img src="assets/screenshots/settings.png" alt="Settings"> |
 
 ## Installation
 
