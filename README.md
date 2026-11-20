@@ -11,6 +11,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4)
 ![Price](https://img.shields.io/badge/price-free-8250df)
 [![Website](https://img.shields.io/badge/website-lexi--apps.pages.dev-ff5a36)](https://lexi-apps.pages.dev/lexi-download-manager/)
+[![Discord](https://img.shields.io/badge/Discord-community-5865F2?logo=discord&logoColor=white)](https://discord.gg/HN9eWThUn2)
 [![Support on Patreon](https://img.shields.io/badge/Patreon-support-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/lexiapps)
 
@@ -98,6 +99,7 @@ Lexi Download Manager is free to use (freeware). Lexi's own source code is not p
 
 ## Contact
 
+Discord community & support: **[discord.gg/HN9eWThUn2](https://discord.gg/HN9eWThUn2)**  
 Bug reports and questions: **lexiapps@protonmail.com**
 
 ---
@@ -140,6 +142,7 @@ Lexi ücretsizdir ve reklam içermez. İşinize yarıyorsa geliştirilmesine [Bu
 ### Lisans ve iletişim
 Lexi Download Manager ücretsiz kullanılır. Lexi'nin kendi kaynak kodu bu depoda yayımlanmaz. Programla gelen açık kaynaklı araçların lisansları programdaki **Ayarlar → Hakkında → Lisans ve üçüncü taraf bildirimleri** bölümündedir.
 
+Discord topluluğu ve destek: **[discord.gg/HN9eWThUn2](https://discord.gg/HN9eWThUn2)**  
 Hata bildirimi ve sorular: **lexiapps@protonmail.com**
 
 <div align="center"><sub>© Lexi Apps</sub></div>
