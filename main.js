@@ -28,6 +28,9 @@ function applyAccent(key, save) {
   root.setAttribute('data-accent', key);
   const out = $('#accent-name');
   if (out) out.textContent = key.charAt(0).toUpperCase() + key.slice(1);
+  $$('[data-accent-choice]').forEach((btn) => {
+    btn.classList.toggle('is-on', btn.getAttribute('data-accent-choice') === key);
+  });
   if (sceneRef) sceneRef.setAccent(a[0]);
   if (save) {
     try { localStorage.setItem('lexi-accent', key); } catch (e) { /* storage unavailable: the choice lasts for this visit */ }
@@ -38,6 +41,12 @@ function setupAccent() {
   $$('.accent input').forEach((input) => {
     input.checked = input.value === current;
     input.addEventListener('change', () => { if (input.checked) applyAccent(input.value, true); });
+  });
+  $$('[data-accent-choice]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      applyAccent(btn.getAttribute('data-accent-choice'), true);
+      if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+    });
   });
   applyAccent(current, false);
 }
