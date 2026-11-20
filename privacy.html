@@ -47,19 +47,64 @@
   </a>
   <div class="top__panel" id="menu">
     <nav aria-label="Primary">
-      <a href="index.html">← Home / Ana Sayfa</a>
+      <div class="dd">
+        <button type="button" class="dd__btn">
+          <span>Apps</span>
+          <i class="dd__caret" aria-hidden="true"></i>
+        </button>
+        <div class="dd__menu" role="menu">
+          <div class="dd__box">
+            <a class="dd__item" href="https://lexi-apps.github.io/" target="_blank" rel="noopener" role="menuitem">
+              <span class="dd__item-left"><span class="dd__num">00</span><span lang="en">LEXI APPS — MAIN HUB</span></span>
+              <span class="dd__ext" aria-hidden="true">&nearr;</span>
+            </a>
+            <a class="dd__item" href="https://lexi-apps.github.io/lexi-renpy-translator/" target="_blank" rel="noopener" role="menuitem">
+              <span class="dd__item-left"><span class="dd__num">01</span><span lang="en">LEXI REN'PY TRANSLATOR</span></span>
+              <span class="dd__ext" aria-hidden="true">&nearr;</span>
+            </a>
+            <a class="dd__item is-on" href="https://lexi-apps.github.io/lexi-download-manager/" target="_blank" rel="noopener" role="menuitem">
+              <span class="dd__item-left"><span class="dd__num">02</span><span lang="en">LEXI DOWNLOAD MANAGER</span></span>
+              <span class="dd__ext" aria-hidden="true">&nearr;</span>
+            </a>
+            <a class="dd__item" href="https://lexi-apps.github.io/lexi-dictate/" target="_blank" rel="noopener" role="menuitem">
+              <span class="dd__item-left"><span class="dd__num">03</span><span lang="en">LEXIDICTATE</span></span>
+              <span class="dd__ext" aria-hidden="true">&nearr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="index.html">← Download Manager</a>
       <a href="#english">English</a>
       <a href="#turkce">Türkçe</a>
     </nav>
-    <div class="accent" role="radiogroup" aria-labelledby="accent-label">
-      <span class="accent__label" id="accent-label">Accent</span>
-      <label title="Ember"><input type="radio" name="accent" value="ember" checked><i style="--c:#ff5a36"></i><span class="vh">Ember accent</span></label>
-      <label title="Acid"><input type="radio" name="accent" value="acid"><i style="--c:#c8ff2e"></i><span class="vh">Acid accent</span></label>
-      <label title="Amber"><input type="radio" name="accent" value="amber"><i style="--c:#ffb224"></i><span class="vh">Amber accent</span></label>
-      <label title="Ice"><input type="radio" name="accent" value="ice"><i style="--c:#5ad8ff"></i><span class="vh">Ice accent</span></label>
-      <label title="Signal"><input type="radio" name="accent" value="signal"><i style="--c:#ff2e4d"></i><span class="vh">Signal accent</span></label>
-      <label title="Mono"><input type="radio" name="accent" value="mono"><i style="--c:#f2f5f7"></i><span class="vh">Mono accent</span></label>
-      <output class="accent__name" id="accent-name" aria-hidden="true">Ember</output>
+
+    <div class="top__support">
+      <a class="sup-btn sup-btn--bmac" href="https://buymeacoffee.com/lexiapps" target="_blank" rel="noopener" title="Buy Me a Coffee">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8h1a4 4 0 0 1 0 8h-1v1a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8h15zm1 6a2 2 0 0 0 0-4h-1v4h1zM6 3h2v3H6V3zm4 0h2v3h-2V3zm4 0h2v3h-2V3z"/></svg>
+        <span>Buy Me a Coffee</span>
+      </a>
+      <a class="sup-btn sup-btn--patreon" href="https://www.patreon.com/cw/LexiApps" target="_blank" rel="noopener" title="Support on Patreon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.386 2c-3.974 0-7.2 3.226-7.2 7.2s3.226 7.2 7.2 7.2 7.2-3.226 7.2-7.2-3.226-7.2-7.2-7.2zM1.414 2v20h3.52V2h-3.52z"/></svg>
+        <span>Patreon</span>
+      </a>
+    </div>
+
+    <div class="dd dd--compact dd--right">
+      <button type="button" class="dd__btn" aria-label="Accent color">
+        <i class="dd__swatch" aria-hidden="true"></i>
+        <span id="accent-name" lang="en">Ember</span>
+        <i class="dd__caret" aria-hidden="true"></i>
+      </button>
+      <div class="dd__menu" role="menu">
+        <div class="dd__box">
+          <button type="button" class="dd__item is-on" data-accent-choice="ember" role="menuitem"><span class="dd__item-left"><i class="dd__dot" style="--c:#ff5a36"></i><span lang="en">Ember</span></span><i class="dd__check" aria-hidden="true"></i></button>
+          <button type="button" class="dd__item" data-accent-choice="acid" role="menuitem"><span class="dd__item-left"><i class="dd__dot" style="--c:#c8ff2e"></i><span lang="en">Acid</span></span><i class="dd__check" aria-hidden="true"></i></button>
+          <button type="button" class="dd__item" data-accent-choice="amber" role="menuitem"><span class="dd__item-left"><i class="dd__dot" style="--c:#ffb224"></i><span lang="en">Amber</span></span><i class="dd__check" aria-hidden="true"></i></button>
+          <button type="button" class="dd__item" data-accent-choice="ice" role="menuitem"><span class="dd__item-left"><i class="dd__dot" style="--c:#5ad8ff"></i><span lang="en">Ice</span></span><i class="dd__check" aria-hidden="true"></i></button>
+          <button type="button" class="dd__item" data-accent-choice="signal" role="menuitem"><span class="dd__item-left"><i class="dd__dot" style="--c:#ff2e4d"></i><span lang="en">Signal</span></span><i class="dd__check" aria-hidden="true"></i></button>
+          <button type="button" class="dd__item" data-accent-choice="mono" role="menuitem"><span class="dd__item-left"><i class="dd__dot" style="--c:#f2f5f7"></i><span lang="en">Mono</span></span><i class="dd__check" aria-hidden="true"></i></button>
+        </div>
+      </div>
     </div>
   </div>
 </header>
@@ -169,11 +214,16 @@
       root.style.setProperty('--on-accent', a[1]);
       root.setAttribute('data-accent', key);
       if (out) out.textContent = key.charAt(0).toUpperCase() + key.slice(1);
+      Array.from(document.querySelectorAll('[data-accent-choice]')).forEach(function (btn) {
+        btn.classList.toggle('is-on', btn.getAttribute('data-accent-choice') === key);
+      });
       if (save) { try { localStorage.setItem('lexi-accent', key); } catch (e) {} }
     }
-    Array.from(document.querySelectorAll('.accent input')).forEach(function (input) {
-      input.checked = input.value === current;
-      input.addEventListener('change', function () { if (input.checked) apply(input.value, true); });
+    Array.from(document.querySelectorAll('[data-accent-choice]')).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        apply(btn.getAttribute('data-accent-choice'), true);
+        if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+      });
     });
     apply(current, false);
   })();
