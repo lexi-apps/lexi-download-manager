@@ -1,148 +1,186 @@
 <div align="center">
 
-<img src="assets/lexi-icon.png" width="128" height="128" alt="Lexi Download Manager">
+<img src="assets/lexi-icon.png" width="96" height="96" alt="Lexi Download Manager">
 
 # Lexi Download Manager
 
-**A free download manager for Windows: fast multi-part downloads, video sites, torrents and a browser extension.**
+Free, local-first multi-part download manager for Windows with video sites, live HLS capture, Debrid, torrents, and bundled browser extensions.
 
-[![Latest release](https://img.shields.io/github/v/release/lexi-apps/lexi-download-manager?label=latest&color=2ea043)](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-download-manager/total?color=0969da)](https://github.com/lexi-apps/lexi-download-manager/releases)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4)
-![Price](https://img.shields.io/badge/price-free-8250df)
-[![Website](https://img.shields.io/badge/website-lexi--apps.pages.dev-ff5a36)](https://lexi-apps.pages.dev/lexi-download-manager/)
-[![Discord](https://img.shields.io/badge/Discord-community-5865F2?logo=discord&logoColor=white)](https://discord.gg/HN9eWThUn2)
-[![Support on Patreon](https://img.shields.io/badge/Patreon-support-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/lexiapps)
+[![Latest release](https://img.shields.io/github/v/release/lexi-apps/lexi-download-manager?style=flat-square&label=release&color=2ea043)](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/lexi-apps/lexi-download-manager/total?style=flat-square&color=0969da)](https://github.com/lexi-apps/lexi-download-manager/releases)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20x64-0078d4?style=flat-square)
+![Price](https://img.shields.io/badge/price-freeware-6e40c9?style=flat-square)
+[![Website](https://img.shields.io/badge/website-lexi--apps.pages.dev-ff5a36?style=flat-square)](https://lexi-apps.pages.dev/lexi-download-manager/)
+[![Discord](https://img.shields.io/badge/discord-community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/HN9eWThUn2)
+[![Patreon](https://img.shields.io/badge/patreon-support-f96854?style=flat-square&logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
+[![Buy Me a Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-tip-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
 
-### [⬇ Download the latest version](https://github.com/lexi-apps/lexi-download-manager/releases/latest) · [🌐 Official Website](https://lexi-apps.pages.dev/lexi-download-manager/)
+### [Download Lexi Download Manager 0.3.0 for Windows](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
 
-<sub>Run <code>Lexi-Setup-x.y.z.exe</code> from the latest release. You don't need the other files.</sub>
+<sub>Run <code>Lexi-Setup-0.3.0.exe</code> (installer) or <code>Lexi-Portable-0.3.0.zip</code> (portable) · Windows 10 or Windows 11 (64-bit)</sub>
 
-[English](#features) · [Türkçe](#türkçe)
+[Overview](#overview) · [Features](#features) · [Screenshots](#screenshots) · [Installation](#installation) · [FAQ](#faq) · [Türkçe](#türkçe)
 
 <br>
 
-<img src="assets/screenshots/main.png" width="860" alt="Lexi Download Manager main window">
+<img src="assets/screenshots/main.png" width="840" alt="Lexi Download Manager main window">
 
 </div>
 
 ---
 
+## Overview
+
+Lexi Download Manager brings multi-part HTTP/HTTPS downloads, organized queues, video extraction, live HLS stream capture, BitTorrent, Debrid services, and cloud file hosts together in a clean Windows desktop application.
+
+Your download history, encrypted cookies, credentials, Debrid API keys, and extension pairing tokens remain strictly on your own machine. Communication between your browser and Lexi runs locally over `127.0.0.1:19847` with zero accounts, zero advertisements, and zero telemetry.
+
 ## Features
 
-| | |
+| Capability | Details |
 |---|---|
-| ⚡ **Fast downloads** | Splits each file into parts via aria2c. Multiple queues with independent concurrency limits, combined filters, floating desktop drop-zone widget, drag-and-drop queue priority, live speed/piece graph, resizable multi-select details summary, settings search, bulk speed limit, link export (.txt) and automatic retries. |
-| 🎬 **Video sites** | Downloads videos from YouTube and many other sites. Quality profiles, video clip trimming (`start–end` timestamps), safe thumbnail previews, SponsorBlock, chapter/metadata embedding, audio-only and subtitles. |
-| 📺 **Stream capture** | The extension detects videos playing on a page (HLS streams) and saves them as a single file. |
-| 🧲 **Torrents** | Magnet links and .torrent files with selective multi-file picker and live upload speed limit. Opens magnet links from your browser. Sharing after the download can be limited or turned off. |
-| ☁️ **File hosts & Debrid** | **Real-Debrid**, **AllDebrid**, and **TorBox** (encrypted write-only API keys) plus built-in resolvers for **Buzzheavier**, **Bzzhr**, **FuckingFast**, **Krakenfiles**, **1Fichier**, Mega, Gofile, Pixeldrain and MediaFire. |
-| 🧩 **Browser extension** | Chrome, Edge, Brave, Opera, Vivaldi and Firefox (both Chromium and Firefox extensions come bundled inside the installer and portable ZIP). Link grabber, confirmation prompt, pairing code and link refresh. |
-| 📁 **Organised** | Optional "Save as" dialog, custom download rules, custom categories, RSS/Atom feeds, watched folders, duplicate warnings and Windows Defender scan. |
-| 🔒 **Privacy** | No account, no ads, no tracking. Saved cookies, proxy credentials and site passwords are encrypted on your PC. Optional Tor & proxy support. |
-| 💼 **Portable & Backups** | Available as both installer and portable ZIP; automatic daily backups and export/import. |
-| 🔄 **Always up to date** | The app and its download tools update themselves. |
-| 🌍 **Languages** | English and Turkish. |
+| **Multi-part acceleration & queues** | Splits files into parallel connections via `aria2c` with pause/resume, automatic retries, live speed SVG charts, piece bitfield bars, drag-and-drop queue ordering, and multiple custom queues with independent concurrency limits and per-queue start/pause controls. |
+| **Video sites & clip trimming** | Downloads from YouTube and 1,000+ video sites (`yt-dlp` + `FFmpeg`) with quality profiles, optional clip trimming (`ss`, `mm:ss`, or `hh:mm:ss` start/end timestamps), SSRF-guarded thumbnail previews, SponsorBlock chapter skipping, metadata embedding, playlist selection, audio-only (`m4a` / `opus`), and subtitles. |
+| **Live HLS stream capture** | The browser extension detects live HLS and media streams playing on web pages, lists selectable resolutions in the extension popup, and merges segments cleanly into a single video file. |
+| **BitTorrent & magnet links** | Supports magnet URIs and local `.torrent` files, optional Windows default magnet handler registration, selective multi-file `.torrent` file picker, live global upload speed limit (`KB/s`), and configurable post-download seed time/ratio limits. |
+| **Debrid & file hosts** | Built-in **Real-Debrid**, **AllDebrid**, and **TorBox** support using write-only encrypted API keys in priority order with automatic direct fallback, plus native resolvers for **Buzzheavier**, **Bzzhr**, **FuckingFast**, **Krakenfiles**, **1Fichier**, Mega (files and folders), Gofile (including password-protected links), Pixeldrain, and MediaFire. |
+| **Bundled browser extensions** | Supports Chrome, Edge, Brave, Opera, Vivaldi, and Firefox — both Chromium (`v0.3.0`) and Firefox (`v0.3.0`) extensions ship bundled directly inside the installer and portable package. Includes Batch Link Grabber (`Alt+Shift+G`, up to 2,000 links), per-site toggle, `Alt`-click bypass, optional confirmation prompt, and expired link refresh. |
+| **Save As dialog & floating drop-zone** | Optional per-download **Save as** prompt showing file type badge, live free disk space, quick recent-folder chips, stem selection, and connection/speed overrides, paired with an always-on-top **Floating Drop-Zone** widget for dragging URLs and `.torrent` files directly. |
+| **Automation & organization** | Custom download rules (by extension, domain, or URL pattern -> folder, speed limit, naming template, post-action), custom categories, RSS/Atom feed subscriptions, watched folders (`.torrent` / `.txt`), duplicate download warnings, and Windows taskbar progress indicator. |
+| **Power-user interface** | Combine **Status + Category + Queue** filters simultaneously and clear active filter chips above the list, resize the **Details** panel smoothly (height persists across restarts) with an aggregate summary for multi-row selections, search **Settings** live in English or Turkish, set bulk speed limits, and export selected links to `.txt`. |
+| **Privacy, encryption & Tor/proxy** | Stores saved cookies, HTTP authentication, proxy credentials, site logins, Debrid keys, and extension pairing token (`X-Lexi-Token`) encrypted on your PC. Supports global or per-download HTTP, HTTPS, and SOCKS5 proxies as well as built-in Tor routing. |
+| **Integrity, portable mode & backups** | Expected checksum verification (SHA-256 / MD5), mirror URL fallback, automatic Windows Defender scan, daily automatic database backups (`7` automatic, `20` manual), safe settings export/import, and portable mode via `portable.txt`. |
+| **Self-updating & languages** | Background auto-updates for Lexi and its bundled tools via GitHub Releases, full real-time **English** and **Turkish** UI switching, and built-in redacted diagnostic issue reporting. |
 
 ## Screenshots
 
-| Choose video quality | Save as dialog | Settings |
+| Save as dialog | Choose video quality | Settings |
 |---|---|---|
-| <img src="assets/screenshots/video-format.png" alt="Choose video format"> | <img src="assets/screenshots/save-as.png" alt="Save as dialog"> | <img src="assets/screenshots/settings.png" alt="Settings"> |
+| <img src="assets/screenshots/save-as.png" alt="Save as dialog"> | <img src="assets/screenshots/video-format.png" alt="Choose video format"> | <img src="assets/screenshots/settings.png" alt="Settings"> |
 
 ## Installation
 
-1. Download **`Lexi-Setup-x.y.z.exe`** from the [latest release](https://github.com/lexi-apps/lexi-download-manager/releases/latest).
-2. Run it. The installer is not code-signed yet, so Windows SmartScreen may warn you: choose **More info → Run anyway**.
-3. To add the browser extension, open Lexi and go to **Settings → Browser extension** (both Chromium and Firefox extensions come bundled inside the app, and a short wizard walks you through loading them).
-
-**Requirements:** Windows 10 or Windows 11, 64-bit.
+- **Desktop Installer:** Download **`Lexi-Setup-0.3.0.exe`** from the [latest release](https://github.com/lexi-apps/lexi-download-manager/releases/latest) and run it. Because the binary is not code-signed yet, Windows SmartScreen may show a prompt — click **More info -> Run anyway**.
+- **Portable Archive:** Download **`Lexi-Portable-0.3.0.zip`** and extract it anywhere. Portable mode keeps all databases and settings in its local `data/` folder without writing to `%APPDATA%`.
+- **Browser Extension:** Both Chromium and Firefox `0.3.0` extensions are already bundled inside the app. Open Lexi and go to **Settings -> Browser extension** to open the extension folder and follow the guided setup steps.
+- **Requirements:** Windows 10 or Windows 11 (64-bit).
 
 ## FAQ
 
 <details>
 <summary><b>Is it really free?</b></summary>
 
-Yes. No ads, no account, no paid version.
+Yes. Every feature in Lexi Download Manager is free, with no advertisements, no user accounts, and no paid tier.
 </details>
 
 <details>
 <summary><b>How do updates work?</b></summary>
 
-While Lexi is running it checks this page for new versions, downloads them in the background and installs them when you close the app.
+While running in installed mode, Lexi checks GitHub Releases for newer versions, verifies package integrity, downloads updates in the background, and installs them cleanly when you exit (or when you restart to apply). Portable builds notify you when a new version is available so you can replace the files while keeping your `data/` folder.
 </details>
 
 <details>
 <summary><b>Clicking a magnet link opens another program.</b></summary>
 
-Lexi never replaces your existing torrent client on its own. Go to **Settings → Make default torrent app** and choose Lexi for "magnet" and ".torrent" in Windows Default apps.
+Lexi never replaces your existing torrent client automatically. Go to **Settings -> Torrent -> Make default torrent app** and assign Lexi for `magnet` and `.torrent` in Windows Default apps.
+</details>
+
+<details>
+<summary><b>How does the browser extension handle my privacy?</b></summary>
+
+All captured URLs, session cookies, and page media links stay on your PC and are transmitted solely to Lexi at `127.0.0.1:19847`. Nothing is ever uploaded to external servers. Read the full [Privacy Policy](PRIVACY.md).
 </details>
 
 <details>
 <summary><b>What are the other files in each release?</b></summary>
 
-- `latest.yml` and `.blockmap`: used by the automatic updater.
-- `*.tar.xz`, `*.7z`, `lexi-ffmpeg-*-build-recipe.zip`, `SHA256SUMS.txt`: source code of the bundled open-source tools (aria2, GMP, FFmpeg, 7-Zip). They are published to comply with their licenses.
+- `latest.yml` and `.blockmap`: metadata used by the automatic updater.
+- `*.tar.xz`, `*.7z`, `lexi-ffmpeg-*-build-recipe.zip`, `SHA256SUMS.txt`: complete source code archives and checksums for the bundled open-source tools (`aria2`, `GMP`, `FFmpeg`, `7-Zip`), published to comply with their respective licenses.
 </details>
 
-## Support Lexi
+## Support
 
-Lexi is free and has no ads. If it saves you time, you can support its development via Buy Me a Coffee or Patreon:
+If Lexi saves you time, you can support ongoing development and code-signing certificate costs via Patreon or Buy Me a Coffee:
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Support%20Lexi%20on-Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/lexiapps)
-[![Support on Patreon](https://img.shields.io/badge/Support%20Lexi%20on-Patreon-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
+[![Support Lexi on Patreon](https://img.shields.io/badge/Support%20Lexi%20on-Patreon-f96854?style=flat-square&logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a-Coffee-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
+
+## More from Lexi Apps
+
+- **Official Website:** [lexi-apps.pages.dev/lexi-download-manager](https://lexi-apps.pages.dev/lexi-download-manager/)
+- **Discord Community:** [discord.gg/HN9eWThUn2](https://discord.gg/HN9eWThUn2)
+- **[Lexi Ren'Py Translator](https://github.com/lexi-apps/lexi-renpy-translator):** Translation tool for Ren'Py visual novels with automatic backups and glossary support.
+- **[LexiDictate](https://github.com/lexi-apps/lexi-dictate):** Sub-second system-wide voice dictation for Windows powered by Gemini Live and Flash.
 
 ## License
 
-Lexi Download Manager is free to use (freeware). Lexi's own source code is not published in this repository. The bundled open-source tools keep their own licenses: see **Settings → About → License and third-party notices** in the app.
+Lexi Download Manager is free to use (freeware). Lexi's own application source code is proprietary and is not published in this release repository. Bundled open-source components retain their respective licenses; see **Settings -> About -> License and third-party notices** in the app or review the published source archives on the Releases page.
 
 ## Contact
 
-Discord community & support: **[discord.gg/HN9eWThUn2](https://discord.gg/HN9eWThUn2)**  
-Bug reports and questions: **lexiapps@protonmail.com**
+Bug reports and questions: **lexiapps@protonmail.com** — or use **Settings -> About -> Report a problem** inside the app.
 
 ---
 
 ## Türkçe
 
-**Windows için ücretsiz indirme yöneticisi: hızlı çok parçalı indirme, video siteleri, torrent ve tarayıcı eklentisi.**
+Windows 10 ve 11 (64-bit) için ücretsiz, reklam içermeyen ve tam yerel çalışan indirme yöneticisi: paralel çok parçalı hızlandırma, çoklu indirme sıraları, klip kesmeli video indirme, canlı HLS yayın yakalama, Debrid servisleri, torrent ve gömülü tarayıcı eklentileri.
 
-### [⬇ En son sürümü indir](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
+**[En Son Sürümü İndir (v0.3.0)](https://github.com/lexi-apps/lexi-download-manager/releases/latest)** · **[Resmi Web Sitesi](https://lexi-apps.pages.dev/lexi-download-manager/)** · **[Discord Topluluğu](https://discord.gg/HN9eWThUn2)**
 
-### Özellikler
-- ⚡ **Hızlı indirme:** dosyayı aria2c ile paralel parçalara böler. Bağımsız eşzamanlılıklı çoklu indirme sıraları, birleşik filtreler, kayan masaüstü bırakma sepeti, sürükle-bırak sıra önceliği, canlı hız/parça grafiği, boyutlandırılabilir çoklu seçim ayrıntı özeti, Ayarlar araması, toplu hız sınırı, `.txt` bağlantı dışa aktarma ve otomatik yeniden dene.
-- 🎬 **Video siteleri:** YouTube ve birçok siteden video indirir. Kalite profilleri, video klip kesme (`başlangıç–bitiş` zamanları), güvenli küçük resim önizlemesi, SponsorBlock, bölüm/meta veri gömme, yalnız ses ve altyazı.
-- 📺 **Yayın yakalama:** eklenti sayfada oynayan videoyu (HLS) algılar ve tek dosya olarak kaydeder.
-- 🧲 **Torrent:** magnet bağlantıları ve `.torrent` dosyaları; seçici çoklu dosya penceresi ve canlı yükleme hızı sınırı. Tarayıcıdaki magnet bağlantıları Lexi'de açılır. İndirme sonrası paylaşım sınırlanabilir ya da kapatılabilir.
-- ☁️ **Dosya siteleri ve Debrid:** **Real-Debrid**, **AllDebrid** ve **TorBox** desteği (şifreli ve gizli API anahtarları) ile **Buzzheavier**, **Bzzhr**, **FuckingFast**, **Krakenfiles**, **1Fichier**, Mega, Gofile, Pixeldrain ve MediaFire bağlantıları.
-- 🧩 **Tarayıcı eklentisi:** Chrome, Edge, Brave, Opera, Vivaldi ve Firefox (hem Chromium hem Firefox eklentileri kurulum ve taşınabilir paketin içinde hazır gelir). Bağlantı toplayıcı, onay penceresi, eşleştirme kodu ve bağlantı yenileme.
-- 📁 **Düzen:** isteğe bağlı "Farklı kaydet" penceresi, özel kurallar, özel kategoriler, RSS/Atom akışları, izlenen klasörler, kopya uyarısı ve Windows Defender taraması.
-- 🔒 **Gizlilik:** hesap yok, reklam yok, takip yok. Kayıtlı çerez, vekil kimlik bilgisi ve site şifreleri bilgisayarınızda şifreli saklanır. İsteğe bağlı Tor ve vekil desteği.
-- 💼 **Taşınabilir ve yedekli:** hem kurulum hem taşınabilir ZIP sürümü; günlük otomatik yedekler ve dışa/içe aktarma.
-- 🔄 **Hep güncel:** program ve indirme araçları kendini günceller.
-- 🌍 **Diller:** Türkçe ve İngilizce.
+### Öne Çıkan Özellikler
+
+| Özellik | Ayrıntılar |
+|---|---|
+| **Çok parçalı indirme ve sıralar** | Dosyaları `aria2c` ile paralel parçalara bölerek hızlandırır. Duraklat/devam ettir, otomatik yeniden deneme, canlı hız grafiği, parça çubukları, sürükle-bırak öncelik ve bağımsız eşzamanlılık/duraklatma sunan çoklu indirme sıraları içerir. |
+| **Video siteleri ve klip kesme** | YouTube ve 1.000+ siteden kalite profilleri, başlangıç/bitiş zamanıyla klip kesme (`sn`, `dd:sn`, `ss:dd:sn`), güvenli küçük resim önizlemesi, SponsorBlock, bölüm/meta veri gömme, oynatma listesi seçimi, yalnız ses ve altyazı desteğiyle indirir. |
+| **Canlı HLS yayın yakalama** | Tarayıcı eklentisi sayfada oynatılan canlı HLS yayınlarını algılar, çözünürlükleri listeler ve segmentleri tek bir video dosyası olarak birleştirir. |
+| **Torrent ve magnet bağlantıları** | Magnet bağlantıları ve `.torrent` dosyalarını destekler. Çok dosyalı torrentlerde seçici dosya indirme penceresi, canlı genel yükleme hızı sınırı (`KB/sn`) ve ayarlanabilir paylaşım sınırı sunar. |
+| **Debrid ve dosya siteleri** | Şifreli ve gizli tutulan API anahtarlarıyla öncelik sırasına göre çalışan **Real-Debrid**, **AllDebrid** ve **TorBox** desteği; ayrıca **Buzzheavier**, **Bzzhr**, **FuckingFast**, **Krakenfiles**, **1Fichier**, Mega, Gofile (parolalı bağlantılar dahil), Pixeldrain ve MediaFire çözücüleri. |
+| **Gömülü tarayıcı eklentileri** | Chrome, Edge, Brave, Opera, Vivaldi ve Firefox desteklenir; hem Chromium hem Firefox `0.3.0` eklentileri kurulum ve taşınabilir paketin içinde hazır gelir. Toplu Bağlantı Toplayıcı (`Alt+Shift+G`), onay penceresi, eşleştirme kodu ve süresi dolan bağlantıyı yenileme içerir. |
+| **Farklı kaydet ve kayan sepet** | Canlı boş disk alanı ve son klasör etiketleri gösteren isteğe bağlı **Farklı kaydet** penceresi ile doğrudan URL ve `.torrent` sürüklenebilen her zaman üstte **Kayan Bırakma Sepeti** sunar. |
+| **Gelişmiş arayüz ve otomasyon** | Birleşik **Durum + Kategori + Sıra** filtreleme, yüksekliği hatırlanan ve çoklu seçim özeti gösteren **Ayrıntılar** paneli, Türkçe/İngilizce **Ayarlar araması**, toplu hız sınırı, `.txt` bağlantı dışa aktarma, özel indirme kuralları, RSS/Atom akışları ve izlenen klasörler. |
+| **Gizlilik, Tor/vekil ve yedekleme** | Hesap, reklam veya telemetri içermez; kayıtlı çerezler, vekil şifreleri, site hesapları ve Debrid anahtarları bilgisayarınızda şifreli tutulur. Genel/görev bazlı HTTP, HTTPS, SOCKS5 vekil ve yerleşik Tor yönlendirmesi, SHA-256/MD5 doğrulaması, Windows Defender taraması ve günlük otomatik yedekler sunar. |
 
 ### Kurulum
-1. [En son sürümden](https://github.com/lexi-apps/lexi-download-manager/releases/latest) **`Lexi-Setup-x.y.z.exe`** dosyasını indirin.
-2. Çalıştırın. Kurulum dosyası henüz dijital olarak imzalı değil; Windows uyarı verirse **Ek bilgi → Yine de çalıştır** seçin.
-3. Tarayıcı eklentisi için Lexi'de **Ayarlar → Tarayıcı eklentisi** yolunu izleyin; hem Chromium hem Firefox eklentileri programla birlikte gelir ve kısa bir sihirbaz kurulumu adım adım gösterir.
 
-**Gereksinim:** Windows 10 veya Windows 11, 64-bit.
+- **Kurulum Paketi:** [En son sürümden](https://github.com/lexi-apps/lexi-download-manager/releases/latest) **`Lexi-Setup-0.3.0.exe`** dosyasını indirip çalıştırın. Dijital imza sertifikası henüz bulunmadığı için Windows SmartScreen uyarısı çıkarsa **Ek bilgi -> Yine de çalıştır** seçin.
+- **Taşınabilir Sürüm:** Kurulum gerektirmeden kullanmak için **`Lexi-Portable-0.3.0.zip`** arşivini çıkartın; tüm veriler program yanındaki `data/` klasöründe saklanır.
+- **Tarayıcı Eklentisi:** Hem Chromium hem Firefox `0.3.0` eklentileri programla birlikte gelir. **Ayarlar -> Tarayıcı eklentisi** üzerinden eklenti klasörünü açıp adım adım kurulum sihirbazını izleyebilirsiniz.
+- **Gereksinim:** Windows 10 veya Windows 11 (64-bit).
 
-### Sık sorulanlar
-- **Gerçekten ücretsiz mi?** Evet. Reklam, hesap ya da ücretli sürüm yok.
-- **Güncellemeler nasıl gelir?** Lexi açıkken yeni sürümü arka planda indirir, programı kapatınca kurar.
-- **Magnet bağlantısı başka programda açılıyor.** Lexi kurulu torrent programınızın yerini kendiliğinden almaz. **Ayarlar → Varsayılan torrent programı yap** ile Windows'un Varsayılan uygulamalar sayfasında Lexi'yi seçin.
-- **Sürümdeki diğer dosyalar ne?** `latest.yml` ve `.blockmap` otomatik güncelleme içindir. `*.tar.xz`, `*.7z`, derleme tarifi ve `SHA256SUMS.txt`, programla gelen açık kaynaklı araçların (aria2, GMP, FFmpeg, 7-Zip) kaynak kodlarıdır; lisansları gereği yayımlanır.
+### Sık Sorulan Sorular
 
-### Destek ol
-Lexi ücretsizdir ve reklam içermez. İşinize yarıyorsa geliştirilmesine [Buy Me a Coffee üzerinden](https://buymeacoffee.com/lexiapps) veya [Patreon üzerinden](https://www.patreon.com/cw/LexiApps) destek olabilirsiniz.
+<details>
+<summary><b>Gerçekten ücretsiz mi?</b></summary>
 
-### Lisans ve iletişim
-Lexi Download Manager ücretsiz kullanılır. Lexi'nin kendi kaynak kodu bu depoda yayımlanmaz. Programla gelen açık kaynaklı araçların lisansları programdaki **Ayarlar → Hakkında → Lisans ve üçüncü taraf bildirimleri** bölümündedir.
+Evet. Lexi Download Manager'daki tüm özellikler ücretsizdir; reklam, kullanıcı hesabı zorunluluğu veya ücretli sürüm bulunmaz.
+</details>
 
-Discord topluluğu ve destek: **[discord.gg/HN9eWThUn2](https://discord.gg/HN9eWThUn2)**  
-Hata bildirimi ve sorular: **lexiapps@protonmail.com**
+<details>
+<summary><b>Güncellemeler nasıl çalışır?</b></summary>
 
-<div align="center"><sub>© Lexi Apps</sub></div>
+Kurulu sürüm çalışırken yeni sürümleri arka planda kontrol eder, doğrulayarak indirir ve uygulamayı kapattığınızda kurar. Taşınabilir sürüm ise yeni sürüm çıktığında bildirim gösterir; eski `data/` klasörünüzü koruyarak güncelleme yapabilirsiniz.
+</details>
+
+<details>
+<summary><b>Magnet bağlantısına tıklayınca başka program açılıyor.</b></summary>
+
+Lexi mevcut torrent programınızın yerini kendiliğinden almaz. **Ayarlar -> Torrent -> Varsayılan torrent programı yap** düğmesini kullanıp Windows Varsayılan uygulamalar ayarlarından `magnet` ve `.torrent` için Lexi'yi seçebilirsiniz.
+</details>
+
+<details>
+<summary><b>Sürümdeki diğer dosyalar ne işe yarar?</b></summary>
+
+`latest.yml` ve `.blockmap` dosyaları otomatik güncelleyici içindir. `*.tar.xz`, `*.7z`, `lexi-ffmpeg-*-build-recipe.zip` ve `SHA256SUMS.txt` ise programla birlikte gelen açık kaynaklı araçların (`aria2`, `GMP`, `FFmpeg`, `7-Zip`) lisansları gereği yayımlanan kaynak kodları ve doğrulama özetleridir.
+</details>
+
+### Destek, Lisans ve İletişim
+
+Lexi Download Manager ücretsizdir ve reklam içermez. Geliştirme sürecine destek olmak isterseniz [Patreon](https://www.patreon.com/cw/LexiApps) veya [Buy Me a Coffee](https://buymeacoffee.com/lexiapps) üzerinden katkıda bulunabilirsiniz.
+
+- **Discord:** [discord.gg/HN9eWThUn2](https://discord.gg/HN9eWThUn2)
+- **Hata bildirimi ve sorular:** **lexiapps@protonmail.com** (veya uygulama içinde **Ayarlar -> Hakkında -> Sorun bildir**)
+- **Lisans:** Uygulama ücretsiz yazılımdır (freeware); açık kaynaklı bileşenlerin lisansları **Ayarlar -> Hakkında -> Lisans ve üçüncü taraf bildirimleri** bölümündedir.
+
+<div align="center"><sub>&copy; Lexi Apps</sub></div>
