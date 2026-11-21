@@ -33,12 +33,12 @@
 
 | | |
 |---|---|
-| ⚡ **Fast downloads** | Splits each file into parts and downloads them in parallel. Pause, resume, drag-and-drop queue priority, live speed/piece graph and automatic retries. |
-| 🎬 **Video sites** | Downloads videos from YouTube and many other sites. Quality profiles, SponsorBlock, chapter/metadata embedding, audio-only and subtitles. |
+| ⚡ **Fast downloads** | Splits each file into parts via aria2c. Multiple queues with independent concurrency limits, combined filters, floating desktop drop-zone widget, drag-and-drop queue priority, live speed/piece graph, resizable multi-select details summary, settings search, bulk speed limit, link export (.txt) and automatic retries. |
+| 🎬 **Video sites** | Downloads videos from YouTube and many other sites. Quality profiles, video clip trimming (`start–end` timestamps), safe thumbnail previews, SponsorBlock, chapter/metadata embedding, audio-only and subtitles. |
 | 📺 **Stream capture** | The extension detects videos playing on a page (HLS streams) and saves them as a single file. |
-| 🧲 **Torrents** | Magnet links and .torrent files. Opens magnet links from your browser. Sharing after the download can be limited or turned off. |
-| ☁️ **File hosts** | Mega, Gofile, Pixeldrain and MediaFire links. |
-| 🧩 **Browser extension** | Chrome, Edge, Brave, Opera, Vivaldi and Firefox. Link grabber, confirmation prompt, pairing code and link refresh. |
+| 🧲 **Torrents** | Magnet links and .torrent files with selective multi-file picker and live upload speed limit. Opens magnet links from your browser. Sharing after the download can be limited or turned off. |
+| ☁️ **File hosts & Debrid** | **Real-Debrid**, **AllDebrid**, and **TorBox** (encrypted write-only API keys) plus built-in resolvers for **Buzzheavier**, **Bzzhr**, **FuckingFast**, **Krakenfiles**, **1Fichier**, Mega, Gofile, Pixeldrain and MediaFire. |
+| 🧩 **Browser extension** | Chrome, Edge, Brave, Opera, Vivaldi and Firefox (both Chromium and Firefox extensions come bundled inside the installer and portable ZIP). Link grabber, confirmation prompt, pairing code and link refresh. |
 | 📁 **Organised** | Optional "Save as" dialog, custom download rules, custom categories, RSS/Atom feeds, watched folders, duplicate warnings and Windows Defender scan. |
 | 🔒 **Privacy** | No account, no ads, no tracking. Saved cookies, proxy credentials and site passwords are encrypted on your PC. Optional Tor & proxy support. |
 | 💼 **Portable & Backups** | Available as both installer and portable ZIP; automatic daily backups and export/import. |
@@ -55,7 +55,7 @@
 
 1. Download **`Lexi-Setup-x.y.z.exe`** from the [latest release](https://github.com/lexi-apps/lexi-download-manager/releases/latest).
 2. Run it. The installer is not code-signed yet, so Windows SmartScreen may warn you: choose **More info → Run anyway**.
-3. To add the browser extension, open Lexi and go to **Settings → Browser extension → Install extension**. A short wizard walks you through it.
+3. To add the browser extension, open Lexi and go to **Settings → Browser extension** (both Chromium and Firefox extensions come bundled inside the app, and a short wizard walks you through loading them).
 
 **Requirements:** Windows 10 or Windows 11, 64-bit.
 
@@ -111,12 +111,12 @@ Bug reports and questions: **lexiapps@protonmail.com**
 ### [⬇ En son sürümü indir](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
 
 ### Özellikler
-- ⚡ **Hızlı indirme:** dosyayı parçalara bölüp aynı anda indirir. Duraklat, devam ettir, sürükle-bırak sıra önceliği, canlı hız/parça grafiği, otomatik yeniden dene.
-- 🎬 **Video siteleri:** YouTube ve birçok siteden video indirir. Kalite profilleri, SponsorBlock, bölüm/meta veri gömme, yalnız ses ve altyazı.
+- ⚡ **Hızlı indirme:** dosyayı aria2c ile paralel parçalara böler. Bağımsız eşzamanlılıklı çoklu indirme sıraları, birleşik filtreler, kayan masaüstü bırakma sepeti, sürükle-bırak sıra önceliği, canlı hız/parça grafiği, boyutlandırılabilir çoklu seçim ayrıntı özeti, Ayarlar araması, toplu hız sınırı, `.txt` bağlantı dışa aktarma ve otomatik yeniden dene.
+- 🎬 **Video siteleri:** YouTube ve birçok siteden video indirir. Kalite profilleri, video klip kesme (`başlangıç–bitiş` zamanları), güvenli küçük resim önizlemesi, SponsorBlock, bölüm/meta veri gömme, yalnız ses ve altyazı.
 - 📺 **Yayın yakalama:** eklenti sayfada oynayan videoyu (HLS) algılar ve tek dosya olarak kaydeder.
-- 🧲 **Torrent:** magnet bağlantıları ve .torrent dosyaları. Tarayıcıdaki magnet bağlantıları Lexi'de açılır. İndirme sonrası paylaşım sınırlanabilir ya da kapatılabilir.
-- ☁️ **Dosya siteleri:** Mega, Gofile, Pixeldrain ve MediaFire bağlantıları.
-- 🧩 **Tarayıcı eklentisi:** Chrome, Edge, Brave, Opera, Vivaldi ve Firefox. Bağlantı toplayıcı, onay penceresi, eşleştirme kodu ve bağlantı yenileme.
+- 🧲 **Torrent:** magnet bağlantıları ve `.torrent` dosyaları; seçici çoklu dosya penceresi ve canlı yükleme hızı sınırı. Tarayıcıdaki magnet bağlantıları Lexi'de açılır. İndirme sonrası paylaşım sınırlanabilir ya da kapatılabilir.
+- ☁️ **Dosya siteleri ve Debrid:** **Real-Debrid**, **AllDebrid** ve **TorBox** desteği (şifreli ve gizli API anahtarları) ile **Buzzheavier**, **Bzzhr**, **FuckingFast**, **Krakenfiles**, **1Fichier**, Mega, Gofile, Pixeldrain ve MediaFire bağlantıları.
+- 🧩 **Tarayıcı eklentisi:** Chrome, Edge, Brave, Opera, Vivaldi ve Firefox (hem Chromium hem Firefox eklentileri kurulum ve taşınabilir paketin içinde hazır gelir). Bağlantı toplayıcı, onay penceresi, eşleştirme kodu ve bağlantı yenileme.
 - 📁 **Düzen:** isteğe bağlı "Farklı kaydet" penceresi, özel kurallar, özel kategoriler, RSS/Atom akışları, izlenen klasörler, kopya uyarısı ve Windows Defender taraması.
 - 🔒 **Gizlilik:** hesap yok, reklam yok, takip yok. Kayıtlı çerez, vekil kimlik bilgisi ve site şifreleri bilgisayarınızda şifreli saklanır. İsteğe bağlı Tor ve vekil desteği.
 - 💼 **Taşınabilir ve yedekli:** hem kurulum hem taşınabilir ZIP sürümü; günlük otomatik yedekler ve dışa/içe aktarma.
@@ -126,7 +126,7 @@ Bug reports and questions: **lexiapps@protonmail.com**
 ### Kurulum
 1. [En son sürümden](https://github.com/lexi-apps/lexi-download-manager/releases/latest) **`Lexi-Setup-x.y.z.exe`** dosyasını indirin.
 2. Çalıştırın. Kurulum dosyası henüz dijital olarak imzalı değil; Windows uyarı verirse **Ek bilgi → Yine de çalıştır** seçin.
-3. Tarayıcı eklentisi için Lexi'de **Ayarlar → Tarayıcı eklentisi → Eklentiyi kur** yolunu izleyin; kısa bir sihirbaz adım adım gösterir.
+3. Tarayıcı eklentisi için Lexi'de **Ayarlar → Tarayıcı eklentisi** yolunu izleyin; hem Chromium hem Firefox eklentileri programla birlikte gelir ve kısa bir sihirbaz kurulumu adım adım gösterir.
 
 **Gereksinim:** Windows 10 veya Windows 11, 64-bit.
 
