@@ -19,13 +19,46 @@ Free, local-first multi-part download manager for Windows with video sites, live
 
 <sub>Run <code>Lexi-Setup-0.3.2.exe</code> (installer) or <code>Lexi-Portable-0.3.2.zip</code> (portable) · Windows 10 or Windows 11 (64-bit)</sub>
 
-[Overview](#overview) · [Features](#features) · [Screenshots](#screenshots) · [Installation](#installation) · [FAQ](#faq) · [Türkçe](#türkçe)
+[Overview](#overview) · [See It in Action](#see-it-in-action) · [Features](#features) · [Screenshots](#screenshots) · [Installation](#installation) · [FAQ](#faq) · [Türkçe](#türkçe)
 
 <br>
 
-<img src="assets/screenshots/main.png" width="840" alt="Lexi Download Manager main window">
+<img src="assets/cards/lexi-dm-demo.gif" width="880" alt="Lexi Download Manager v0.3.2 — Zero Save-As 3-Stage Floating Dialog, Bundled Extensions & 4K Video Demo">
+
+<sub>~14-second interactive highlight — 3-stage floating dialog, bundled extensions, batch link grabber &amp; 4K video · <a href="https://lexi-apps.pages.dev/lexi-download-manager/#dm-video">Watch full 40s 60fps showcase with audio on website ↗</a></sub>
 
 </div>
+
+---
+
+## See It in Action
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="assets/cards/card-hero.jpg"><img src="assets/cards/card-hero.jpg" alt="Lexi Download Manager v0.3.2 — Free Multi-Part Download Manager for Windows"></a>
+    </td>
+    <td width="50%">
+      <a href="assets/cards/card-dialog.jpg"><img src="assets/cards/card-dialog.jpg" alt="Zero Browser Save-As and Live 3-Stage IDM-Style Floating Download Dialog"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="assets/cards/card-extensions.jpg"><img src="assets/cards/card-extensions.jpg" alt="Bundled Chrome, Edge, Brave, Opera, Vivaldi, Firefox & Tor Extensions with Batch Link Grabber"></a>
+    </td>
+    <td width="50%">
+      <a href="assets/cards/card-video.jpg"><img src="assets/cards/card-video.jpg" alt="1,000+ Video Sites, 4K/MP3 Quality Picker, Clip Trimming & SponsorBlock"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="assets/cards/card-hosts.jpg"><img src="assets/cards/card-hosts.jpg" alt="Debrid Services (Real-Debrid, AllDebrid, TorBox), Modern File Hosts & BitTorrent Queues"></a>
+    </td>
+    <td width="50%">
+      <a href="assets/cards/card-security.jpg"><img src="assets/cards/card-security.jpg" alt="New in v0.3.2 — End-to-End SOCKS5/SOCKS5h & Tor Proxy, DPAPI Vault, SHA-256 & Defender Shield"></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -54,9 +87,17 @@ Your download history, encrypted cookies, credentials, Debrid API keys, and exte
 
 ## Screenshots
 
-| Save as dialog | Choose video quality | Settings |
+| Main window | Floating dialog — Stage 1 (Confirm) | Floating dialog — Stage 2 (Live Progress) |
 |---|---|---|
-| <img src="assets/screenshots/save-as.png" alt="Save as dialog"> | <img src="assets/screenshots/video-format.png" alt="Choose video format"> | <img src="assets/screenshots/settings.png" alt="Settings"> |
+| <img src="assets/screenshots/main.png" alt="Main window"> | <img src="assets/screenshots/dialog-stage1.png" alt="Floating dialog Stage 1 Confirm"> | <img src="assets/screenshots/dialog-stage2.png" alt="Floating dialog Stage 2 Live Progress"> |
+
+| Floating dialog — Stage 3 (Completed) | Bundled Extension Popup | Batch Link Grabber (`Alt+Shift+G`) |
+|---|---|---|
+| <img src="assets/screenshots/dialog-stage3.png" alt="Floating dialog Stage 3 Completed"> | <img src="assets/screenshots/extension-popup.png" alt="Extension popup"> | <img src="assets/screenshots/link-grabber.png" alt="Batch Link Grabber"> |
+
+| Video Quality & Clip Trimming | Tabbed Settings & Live Search |
+|---|---|
+| <img src="assets/screenshots/video-format.png" alt="Choose video format and clip trim"> | <img src="assets/screenshots/settings.png" alt="Tabbed Settings"> |
 
 ## Installation
 
