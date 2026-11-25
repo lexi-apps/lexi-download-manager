@@ -25,7 +25,7 @@ Free, local-first multi-part download manager for Windows with video sites, live
 
 <img src="assets/cards/lexi-dm-demo.gif" width="880" alt="Lexi Download Manager v0.3.2 — Zero Save-As 3-Stage Floating Dialog, Bundled Extensions & 4K Video Demo">
 
-<sub>~14-second interactive highlight — 3-stage floating dialog, bundled extensions, batch link grabber &amp; 4K video · <a href="https://lexi-apps.pages.dev/lexi-download-manager/#dm-video">Watch full 40s 60fps showcase with audio on website ↗</a></sub>
+<sub>~10-second interactive highlight — 3-stage floating dialog, bundled extensions &amp; batch link grabber · <a href="https://lexi-apps.pages.dev/lexi-download-manager/#dm-video">Watch full 40s 1080p 60fps showcase on website ↗</a></sub>
 
 </div>
 
@@ -36,26 +36,26 @@ Free, local-first multi-part download manager for Windows with video sites, live
 <table>
   <tr>
     <td width="50%">
-      <a href="assets/cards/card-hero.jpg"><img src="assets/cards/card-hero.jpg" alt="Lexi Download Manager v0.3.2 — Free Multi-Part Download Manager for Windows"></a>
+      <a href="assets/cards/card-hero.png"><img src="assets/cards/card-hero.png" alt="Lexi Download Manager v0.3.2 — Free Multi-Part Download Manager for Windows"></a>
     </td>
     <td width="50%">
-      <a href="assets/cards/card-dialog.jpg"><img src="assets/cards/card-dialog.jpg" alt="Zero Browser Save-As and Live 3-Stage IDM-Style Floating Download Dialog"></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="assets/cards/card-extensions.jpg"><img src="assets/cards/card-extensions.jpg" alt="Bundled Chrome, Edge, Brave, Opera, Vivaldi, Firefox & Tor Extensions with Batch Link Grabber"></a>
-    </td>
-    <td width="50%">
-      <a href="assets/cards/card-video.jpg"><img src="assets/cards/card-video.jpg" alt="1,000+ Video Sites, 4K/MP3 Quality Picker, Clip Trimming & SponsorBlock"></a>
+      <a href="assets/cards/card-dialog.png"><img src="assets/cards/card-dialog.png" alt="Zero Browser Save-As and Live 3-Stage IDM-Style Floating Download Dialog"></a>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="assets/cards/card-hosts.jpg"><img src="assets/cards/card-hosts.jpg" alt="Debrid Services (Real-Debrid, AllDebrid, TorBox), Modern File Hosts & BitTorrent Queues"></a>
+      <a href="assets/cards/card-extensions.png"><img src="assets/cards/card-extensions.png" alt="Bundled Chrome, Edge, Brave, Opera, Vivaldi, Firefox & Tor Extensions with Batch Link Grabber"></a>
     </td>
     <td width="50%">
-      <a href="assets/cards/card-security.jpg"><img src="assets/cards/card-security.jpg" alt="New in v0.3.2 — End-to-End SOCKS5/SOCKS5h & Tor Proxy, DPAPI Vault, SHA-256 & Defender Shield"></a>
+      <a href="assets/cards/card-video.png"><img src="assets/cards/card-video.png" alt="1,000+ Video Sites, 4K/MP3 Quality Picker, Clip Trimming & SponsorBlock"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="assets/cards/card-hosts.png"><img src="assets/cards/card-hosts.png" alt="Debrid Services (Real-Debrid, AllDebrid, TorBox), Modern File Hosts & BitTorrent Queues"></a>
+    </td>
+    <td width="50%">
+      <a href="assets/cards/card-security.png"><img src="assets/cards/card-security.png" alt="New in v0.3.2 — End-to-End SOCKS5/SOCKS5h & Tor Proxy, DPAPI Vault, SHA-256 & Defender Shield"></a>
     </td>
   </tr>
 </table>
