@@ -12,14 +12,14 @@ Free, local-first multi-part download manager for Windows with video sites, live
 [![Firefox Add-ons](https://img.shields.io/badge/Firefox%20Add--ons-Install-FF7139?style=flat-square&logo=firefox&logoColor=white)](https://addons.mozilla.org/firefox/addon/lexi-download-manager/)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20x64-0078d4?style=flat-square)
 ![Price](https://img.shields.io/badge/price-freeware-6e40c9?style=flat-square)
-[![Website](https://img.shields.io/badge/website-lexi--apps.pages.dev-ff5a36?style=flat-square)](https://lexi-apps.pages.dev/lexi-download-manager/)
+[![Website](https://img.shields.io/badge/website-lexiapps.dev-ff5a36?style=flat-square)](https://lexiapps.dev/lexi-download-manager/)
 [![Discord](https://img.shields.io/badge/discord-community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/HN9eWThUn2)
 [![Patreon](https://img.shields.io/badge/patreon-support-f96854?style=flat-square&logo=patreon&logoColor=white)](https://www.patreon.com/cw/LexiApps)
 [![Buy Me a Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-tip-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lexiapps)
 
-### [Download Lexi Download Manager 0.4.0 for Windows](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
+### [Download Lexi Download Manager 0.4.1 for Windows](https://github.com/lexi-apps/lexi-download-manager/releases/latest)
 
-<sub>Run <code>Lexi-Setup-0.4.0.exe</code> · Windows 10 or Windows 11 (64-bit) · Extensions: <a href="https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln">Chrome Web Store</a> · <a href="https://addons.mozilla.org/firefox/addon/lexi-download-manager/">Firefox Add-ons</a></sub>
+<sub>Run <code>Lexi-Setup-0.4.1.exe</code> · Windows 10 or Windows 11 (64-bit) · Extensions: <a href="https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln">Chrome Web Store</a> · <a href="https://addons.mozilla.org/firefox/addon/lexi-download-manager/">Firefox Add-ons</a></sub>
 
 [Overview](#overview) · [See It in Action](#see-it-in-action) · [Features](#features) · [Screenshots](#screenshots) · [Installation](#installation) · [FAQ](#faq) · [Türkçe](#türkçe)
 
@@ -27,7 +27,7 @@ Free, local-first multi-part download manager for Windows with video sites, live
 
 <img src="assets/cards/lexi-dm-demo.gif" width="880" alt="Lexi Download Manager v0.3.2 — Zero Save-As 3-Stage Floating Dialog, Bundled Extensions & 4K Video Demo">
 
-<sub>~10-second interactive highlight — 3-stage floating dialog, bundled extensions &amp; batch link grabber · <a href="https://lexi-apps.pages.dev/lexi-download-manager/#dm-video">Watch full 40s 1080p 60fps showcase on website ↗</a></sub>
+<sub>~10-second interactive highlight — 3-stage floating dialog, bundled extensions &amp; batch link grabber · <a href="https://lexiapps.dev/lexi-download-manager/#dm-video">Watch full 40s 1080p 60fps showcase on website ↗</a></sub>
 
 </div>
 
@@ -76,10 +76,10 @@ Your download history, encrypted cookies, credentials, Debrid API keys, and exte
 |---|---|
 | **Multi-part acceleration & queues** | Splits files into parallel connections via `aria2c` with pause/resume, automatic retries, live speed SVG charts, piece bitfield bars, drag-and-drop queue ordering, and multiple custom queues with independent concurrency limits and per-queue start/pause controls. |
 | **Video sites & clip trimming** | Downloads from YouTube and 1,000+ video sites (`yt-dlp` + `FFmpeg`) with quality profiles, optional clip trimming (`ss`, `mm:ss`, or `hh:mm:ss` start/end timestamps), SSRF-guarded thumbnail previews, SponsorBlock chapter skipping, metadata embedding, playlist selection, audio-only (`m4a` / `opus`), and subtitles. |
-| **Live HLS stream capture** | The browser extension detects live HLS and media streams playing on web pages, lists selectable resolutions in the extension popup, and merges segments cleanly into a single video file. |
+| **Live HLS capture, series batch & subtitles** | The browser extension captures VOD/live HLS streams with automatic 3-tier HTTP 403 adaptation and `Origin` handling, detects multi-episode series pages for batch downloading with hybrid auto-acceleration, captures `.vtt`/`.srt`/`blob:` subtitles (save `.srt` sidecar or lossless FFmpeg soft-sub embed), and losslessly merges completed episodes into one file (`ffmpeg -c copy`) with time-shifted subtitles. |
 | **BitTorrent & magnet links** | Supports magnet URIs and local `.torrent` files, optional Windows default magnet handler registration, selective multi-file `.torrent` file picker, live global upload speed limit (`KB/s`), and configurable post-download seed time/ratio limits. |
 | **Debrid & 59 file host families (200+ mirrors)** | Built-in **Real-Debrid**, **AllDebrid**, and **TorBox** support using write-only encrypted API keys with smart 3-mode routing (`directFirst` / `debridFirst` / `debridOrExtensionOnly`), per-host connection & concurrency ceilings, and automatic short-lived token refresh. Native resolvers for **Pixeldrain** (7 mirrors + `/l/` lists + `/d/`), **Buzzheavier** (`bzzhr.co/.to`, `trashbytes.net`, `flashbang.sh`, `fuckingfast`), **1Fichier** (13 mirrors + passwords), **MediaFire** (`/folder/`), **Krakenfiles**, **MEGA** (files & folders), **Gofile** (passwords & folders), **Google Drive** (files & `/drive/folders/`), **Yandex Disk**, **Dropbox**, **Koofr**, **SwissTransfer**, **Workupload**, **Mail.ru Cloud**, **Cyberfile**, **Bunkr**, **Ranoz.gg**, **Rootz.so**, **Mixdrop**, **Catbox/Litterbox**, **FileDitch**, **Upload.ee**, **GameBanana**, **ShareMods**, **ModsFire**, **UploadHaven**, and **OneDrive**, plus 32 CAPTCHA-gated Debrid/extension hosts with 1-click **"Open in browser"** handoff and opt-in **Click'n'Load 2 (Filecrypt)** support (`127.0.0.1:9666`, off by default). |
-| **Official & bundled browser extensions** | 1-click install from [Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln) (Chrome, Edge, Brave, Opera, Vivaldi) and [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/lexi-download-manager/), plus bundled Chromium (`v0.4.0`) and Firefox (`v0.4.0`) files inside the installer for offline setup. Eliminates native browser Save-As popups when Lexi is active, includes a 15-minute browser handback bridge, Batch Link Grabber (`Alt+Shift+G`, up to 2,000 links), per-site toggle, `Alt`-click bypass, and expired link refresh. |
+| **Official & bundled browser extensions** | 1-click install from [Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln) (Chrome, Edge, Brave, Opera, Vivaldi) and [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/lexi-download-manager/), plus bundled Chromium (`v0.4.1`) and Firefox (`v0.4.1`) files inside the installer for offline setup. Eliminates native browser Save-As popups when Lexi is active, includes a 15-minute browser handback bridge, Universal Series/Episode Batch Downloader, Batch Link Grabber (`Alt+Shift+G`, up to 2,000 links), per-site toggle, `Alt`-click bypass, and expired link refresh. |
 | **3-stage download dialog & drop-zone** | Floating **IDM-style 3-stage download dialog** (Save Prompt with live free disk space & recent folder chips -> Live Progress with SVG speed chart, segment bars & inline speed limit -> Completion summary), paired with an always-on-top **Floating Drop-Zone** widget for dragging URLs and `.torrent` files directly. |
 | **Automation & organization** | Custom download rules (by extension, domain, or URL pattern -> folder, speed limit, naming template, post-action), custom categories, RSS/Atom feed subscriptions, watched folders (`.torrent` / `.txt`), duplicate download warnings, and Windows taskbar progress indicator. |
 | **Power-user interface** | Combine **Status + Category + Queue** filters simultaneously and clear active filter chips above the list, resize the **Details** panel smoothly (height persists across restarts) with an aggregate summary for multi-row selections, search **Settings** live in English or Turkish, set bulk speed limits, and export selected links to `.txt`. |
@@ -103,8 +103,8 @@ Your download history, encrypted cookies, credentials, Debrid API keys, and exte
 
 ## Installation
 
-- **Desktop Installer:** Download **`Lexi-Setup-0.4.0.exe`** from the [latest release](https://github.com/lexi-apps/lexi-download-manager/releases/latest) and run it. Because the binary is not code-signed yet, Windows SmartScreen may show a prompt — click **More info -> Run anyway**.
-- **Browser Extension:** Install in one click from the [Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln) (Chrome, Edge, Brave, Opera, Vivaldi) or [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/lexi-download-manager/). Bundled local `0.4.0` extension files also remain inside **Settings -> Browser extension -> Manual / local files** for offline setups.
+- **Desktop Installer:** Download **`Lexi-Setup-0.4.1.exe`** from the [latest release](https://github.com/lexi-apps/lexi-download-manager/releases/latest) and run it. Because the binary is not code-signed yet, Windows SmartScreen may show a prompt — click **More info -> Run anyway**.
+- **Browser Extension:** Install in one click from the [Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln) (Chrome, Edge, Brave, Opera, Vivaldi) or [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/lexi-download-manager/). Bundled local `0.4.1` extension files also remain inside **Settings -> Browser extension -> Manual / local files** for offline setups.
 - **Requirements:** Windows 10 or Windows 11 (64-bit).
 
 ## FAQ
@@ -149,7 +149,7 @@ If Lexi saves you time, you can support ongoing development and code-signing cer
 
 ## More from Lexi Apps
 
-- **Official Website:** [lexi-apps.pages.dev/lexi-download-manager](https://lexi-apps.pages.dev/lexi-download-manager/)
+- **Official Website:** [lexiapps.dev/lexi-download-manager](https://lexiapps.dev/lexi-download-manager/)
 - **Discord Community:** [discord.gg/HN9eWThUn2](https://discord.gg/HN9eWThUn2)
 - **[Lexi Ren'Py Translator](https://github.com/lexi-apps/lexi-renpy-translator):** Translation tool for Ren'Py visual novels with automatic backups and glossary support.
 - **[LexiDictate](https://github.com/lexi-apps/lexi-dictate):** Sub-second system-wide voice dictation for Windows powered by Gemini Live and Flash.
@@ -168,7 +168,7 @@ Bug reports and questions: **lexiapps@protonmail.com** — or use **Settings -> 
 
 Windows 10 ve 11 (64-bit) için ücretsiz, reklam içermeyen ve tam yerel çalışan indirme yöneticisi: paralel çok parçalı hızlandırma, çoklu indirme sıraları, klip kesmeli video indirme, canlı HLS yayın yakalama, Debrid servisleri, torrent ve gömülü tarayıcı eklentileri.
 
-**[En Son Sürümü İndir (v0.4.0)](https://github.com/lexi-apps/lexi-download-manager/releases/latest)** · **[Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln)** · **[Firefox Eklentileri](https://addons.mozilla.org/firefox/addon/lexi-download-manager/)** · **[Resmi Web Sitesi](https://lexi-apps.pages.dev/lexi-download-manager/)** · **[Discord Topluluğu](https://discord.gg/HN9eWThUn2)**
+**[En Son Sürümü İndir (v0.4.1)](https://github.com/lexi-apps/lexi-download-manager/releases/latest)** · **[Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln)** · **[Firefox Eklentileri](https://addons.mozilla.org/firefox/addon/lexi-download-manager/)** · **[Resmi Web Sitesi](https://lexiapps.dev/lexi-download-manager/)** · **[Discord Topluluğu](https://discord.gg/HN9eWThUn2)**
 
 ### Öne Çıkan Özellikler
 
@@ -176,18 +176,18 @@ Windows 10 ve 11 (64-bit) için ücretsiz, reklam içermeyen ve tam yerel çalı
 |---|---|
 | **Çok parçalı indirme ve sıralar** | Dosyaları `aria2c` ile paralel parçalara bölerek hızlandırır. Duraklat/devam ettir, otomatik yeniden deneme, canlı hız grafiği, parça çubukları, sürükle-bırak öncelik ve bağımsız eşzamanlılık/duraklatma sunan çoklu indirme sıraları içerir. |
 | **Video siteleri ve klip kesme** | YouTube ve 1.000+ siteden kalite profilleri, başlangıç/bitiş zamanıyla klip kesme (`sn`, `dd:sn`, `ss:dd:sn`), güvenli küçük resim önizlemesi, SponsorBlock, bölüm/meta veri gömme, oynatma listesi seçimi, yalnız ses ve altyazı desteğiyle indirir. |
-| **Canlı HLS yayın yakalama** | Tarayıcı eklentisi sayfada oynatılan canlı HLS yayınlarını algılar, çözünürlükleri listeler ve segmentleri tek bir video dosyası olarak birleştirir. |
+| **HLS yakalama, seri toplu indirme & altyazı** | Tarayıcı eklentisi 3 kademeli 403/Origin korumasıyla HLS yayınlarını yakalar, çok bölümlü dizi/anime/kurs sitelerini hibrit hızlandırmayla toplu indirir, `.vtt`/`.srt`/`blob:` altyazıları yakalayıp yanına `.srt` kaydeder veya kayıpsız FFmpeg ile MP4/MKV'ye gömer ve tamamlanan bölümleri kayıpsız tek dosyada birleştirir. |
 | **Torrent ve magnet bağlantıları** | Magnet bağlantıları ve `.torrent` dosyalarını destekler. Çok dosyalı torrentlerde seçici dosya indirme penceresi, canlı genel yükleme hızı sınırı (`KB/sn`) ve ayarlanabilir paylaşım sınırı sunar. |
 | **Debrid ve 59 dosya sitesi ailesi (200+ ayna)** | Şifreli ve gizli tutulan API anahtarlarıyla 3 modlu akıllı yönlendirme sunan **Real-Debrid**, **AllDebrid** ve **TorBox** desteği; host bazlı bağlantı/eşzamanlılık koruması ve otomatik jeton yenileme. **Pixeldrain** (7 ayna + `/l/` + `/d/`), **Buzzheavier** (`bzzhr.co/.to`, `trashbytes.net`, `flashbang.sh`, `fuckingfast`), **1Fichier** (13 ayna + parola), **MediaFire** (`/folder/`), **Krakenfiles**, **MEGA** (dosya & klasör), **Gofile** (parola & klasör), **Google Drive** (`/drive/folders/`), **Yandex Disk**, **Dropbox**, **Koofr**, **SwissTransfer**, **Workupload**, **Mail.ru Cloud**, **Cyberfile**, **Bunkr**, **Ranoz.gg**, **Rootz.so**, **Mixdrop**, **Catbox/Litterbox**, **FileDitch**, **Upload.ee**, **GameBanana**, **ShareMods**, **ModsFire**, **UploadHaven** ve **OneDrive** yerleşik çözücüleri; ayrıca 32 CAPTCHA korumalı site için tek tık **"Tarayıcıda aç"** ve isteğe bağlı **Click'n'Load 2 (Filecrypt)** desteği. |
-| **Resmi ve gömülü tarayıcı eklentileri** | [Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln) (Chrome, Edge, Brave, Opera, Vivaldi) ve [Firefox Eklentileri](https://addons.mozilla.org/firefox/addon/lexi-download-manager/) üzerinden tek tıkla kurulum; ayrıca çevrimdışı/elle kurulum için Chromium ve Firefox `0.4.0` paketleri kurulum paketinin içinde hazır gelir. Lexi etkinken yerel tarayıcı Save-As penceresi açılmaz; 15 dakikalık geri devir köprüsü, Toplu Bağlantı Toplayıcı (`Alt+Shift+G`), eşleştirme kodu ve bağlantı yenileme içerir. |
+| **Resmi ve gömülü tarayıcı eklentileri** | [Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln) (Chrome, Edge, Brave, Opera, Vivaldi) ve [Firefox Eklentileri](https://addons.mozilla.org/firefox/addon/lexi-download-manager/) üzerinden tek tıkla kurulum; ayrıca çevrimdışı/elle kurulum için Chromium ve Firefox `0.4.1` paketleri kurulum paketinin içinde hazır gelir. Lexi etkinken yerel tarayıcı Save-As penceresi açılmaz; 15 dakikalık geri devir köprüsü, Evrensel Seri/Bölüm Tarayıcısı, Toplu Bağlantı Toplayıcı (`Alt+Shift+G`), eşleştirme kodu ve bağlantı yenileme içerir. |
 | **3 aşamalı pencere ve kayan sepet** | Kayan **IDM tarzı 3 aşamalı indirme penceresi** (canlı boş disk alanı ve hızlı klasörler -> SVG hız grafiği, segment çubukları ve satır içi hız limitiyle canlı ilerleme -> Tamamlandı özeti) ile doğrudan URL ve `.torrent` sürüklenebilen her zaman üstte **Kayan Bırakma Sepeti** sunar. |
 | **Gelişmiş arayüz ve otomasyon** | Birleşik **Durum + Kategori + Sıra** filtreleme, yüksekliği hatırlanan ve çoklu seçim özeti gösteren **Ayrıntılar** paneli, Türkçe/İngilizce **Ayarlar araması**, toplu hız sınırı, `.txt` bağlantı dışa aktarma, özel indirme kuralları, RSS/Atom akışları ve izlenen klasörler. |
 | **Gizlilik, Tor/vekil ve yedekleme** | Hesap, reklam veya telemetri içermez; kayıtlı çerezler, vekil şifreleri, site hesapları ve Debrid anahtarları bilgisayarınızda şifreli tutulur. Genel/görev bazlı uçtan uca HTTP, HTTPS ve SOCKS5/SOCKS5h vekil desteği, yerleşik Tor yönlendirmesi, SHA-256/MD5 doğrulaması, Windows Defender taraması ve günlük otomatik yedekler sunar. |
 
 ### Kurulum
 
-- **Kurulum Paketi:** [En son sürümden](https://github.com/lexi-apps/lexi-download-manager/releases/latest) **`Lexi-Setup-0.4.0.exe`** dosyasını indirip çalıştırın. Dijital imza sertifikası henüz bulunmadığı için Windows SmartScreen uyarısı çıkarsa **Ek bilgi -> Yine de çalıştır** seçin.
-- **Tarayıcı Eklentisi:** [Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln) (Chrome, Edge, Brave, Opera, Vivaldi) veya [Firefox Eklentileri](https://addons.mozilla.org/firefox/addon/lexi-download-manager/) üzerinden tek tıkla kurabilirsiniz. Çevrimdışı veya elle kurulum için gömülü `0.4.0` dosyaları da **Ayarlar -> Tarayıcı eklentisi -> Elle kur / yerel dosyalar** altında hazırdır.
+- **Kurulum Paketi:** [En son sürümden](https://github.com/lexi-apps/lexi-download-manager/releases/latest) **`Lexi-Setup-0.4.1.exe`** dosyasını indirip çalıştırın. Dijital imza sertifikası henüz bulunmadığı için Windows SmartScreen uyarısı çıkarsa **Ek bilgi -> Yine de çalıştır** seçin.
+- **Tarayıcı Eklentisi:** [Chrome Web Store](https://chromewebstore.google.com/detail/lexi-download-manager/kddhaiacbpnikofoopikaapaehfaklln) (Chrome, Edge, Brave, Opera, Vivaldi) veya [Firefox Eklentileri](https://addons.mozilla.org/firefox/addon/lexi-download-manager/) üzerinden tek tıkla kurabilirsiniz. Çevrimdışı veya elle kurulum için gömülü `0.4.1` dosyaları da **Ayarlar -> Tarayıcı eklentisi -> Elle kur / yerel dosyalar** altında hazırdır.
 - **Gereksinim:** Windows 10 veya Windows 11 (64-bit).
 
 ### Sık Sorulan Sorular
